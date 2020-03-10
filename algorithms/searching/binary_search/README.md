@@ -15,7 +15,7 @@ Binary search recursively divides specified container range in half and checks i
 - Collection supports random access
 - Collection is sorted
 
-## Implementation
+## Language-specific notes
 
 ### C++
 
@@ -30,7 +30,7 @@ bool binary_search(ForwardIterator first, ForwardIterator last, const T& val)
 }
 ```
 
-If you need index of searched element, add following implementation:
+If you need index of searched element, use the following implementation:
 
 ```c++
 template <class ForwardIterator, class T>
@@ -41,27 +41,3 @@ int binary_search_i(ForwardIterator first, ForwardIterator last, const T &val) {
 ```
 
 `std::lower_bound` also works on containers without random access but it's performance is linear in such cases.
-
-### C
-
-```c
-int binary_search_impl(int a[], int first, int last, int el) {
-  int mid = ((int) (first + last)) / 2;
-
-  if (last - first == 1) {
-    return -1;
-  } else if (a[mid] == el) {
-    return mid;
-  } else if (a[mid] > el) {
-    return binary_search_impl(a, first, mid, el);
-  } else if (a[mid] < el) {
-    return binary_search_impl(a, mid, last, el);
-  } else {
-    return -1;
-  }
-}
-
-int binary_search_i(int a[], int last, int el) {
-  return binary_search_impl(a, 0, last, el);
-}
-```

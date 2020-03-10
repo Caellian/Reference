@@ -1,25 +1,10 @@
-# [Jump search](https://en.wikipedia.org/wiki/Jump_search)
-
-Jump search finds a given element in collection by making small jumps
-
-**Time complexity:** O(√n)
-
-## Requirements
-
-- Collection is sorted
-
-## Implementation
-
-### C++
-
-#### Random Access Iterator
-
-```c++
 #include <cmath>
 
+// Implementation for random access iterators
+
 template <class RandomAccessIt, class T>
-int jump_search(RandomAccessIt first, RandomAccessIt last, const T &el) {
-  const int step = sqrt(last - first);
+int jump_search_ra(RandomAccessIt first, RandomAccessIt last, const T &el) {
+  const int step = std::sqrt(last - first);
   auto curr = first;
   auto after = curr;
 
@@ -38,16 +23,12 @@ int jump_search(RandomAccessIt first, RandomAccessIt last, const T &el) {
 
   return curr - first;
 }
-```
 
-#### Forward Iterator
-
-```c++
-#include <cmath>
+// Implementation for forward iterators
 
 template <class ForwardIt, class T>
-int jump_search(ForwardIt first, ForwardIt last, const T &el) {
-  const int step = sqrt(last - first);
+int jump_search_fw(ForwardIt first, ForwardIt last, const T &el) {
+  const int step = std::sqrt(last - first);
   auto curr = first;
   auto after = curr;
 
@@ -74,4 +55,3 @@ int jump_search(ForwardIt first, ForwardIt last, const T &el) {
 
   return curr - first;
 }
-```

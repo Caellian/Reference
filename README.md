@@ -1,16 +1,16 @@
 # Reference
 
-Reference repository containing information regarding programming I find useful.
+Reference repository containing information about various different [algorythms](./algorithms) and data structures I find useful.
 
 ## Attribution
 
-Most C implementations are copied over from [GeeksforGeeks](https://www.geeksforgeeks.org) website.
+Most C implementations are copied over from [GeeksforGeeks](https://www.geeksforgeeks.org) website. C++ versions are modified versions of those algorithms to function with C++ iterators.
 
 ## Contribution
 
 If you aren't certain whether something should be added to this repository, feel free to create a issue. Apart from minor path or format corrections, your contribution will likely be accepted.
 
-By contributing to this repository, you acknowledge and accept it's license. If you make significant changes or enhancements in his your as an employee of some formal organization, a disclaimer signed by your company officer would be greatly appreciated. For further info, refer to [Unlicensing Contributions](https://unlicense.org/#unlicensing-contributions).
+By contributing to this repository, you acknowledge and accept it's license. If you make significant changes or enhancements as an employee of some formal organization, a disclaimer signed by your company officer would be greatly appreciated. For further info, refer to [Unlicensing Contributions](https://unlicense.org/#unlicensing-contributions).
 
 ## License
 
