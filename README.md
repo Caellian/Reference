@@ -1,6 +1,6 @@
 # Reference
 
-Reference repository containing information about various different [algorythms](./algorithms) and data structures I find useful.
+Reference repository containing information about various different [algorythms](./algorithms) and [data structures](./data_structures) I find useful.
 
 ## Attribution
 

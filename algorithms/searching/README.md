@@ -1,6 +1,6 @@
 # Search algorythms
 
-Subdirectories here contain implementations of various common search algorythms and information on when it's best to use each of them. General rule of thumb is to use a linear search if you know nothing about searched data structure or it isn't sorted and binary search if you know the data is sorted.
+Subdirectories contain implementations of various common search algorythms and information on when it's best to use each of them. General rule of thumb is to use a linear search if you know nothing about searched data structure or it isn't sorted and binary search if you know the data is sorted.
 
 ## List of included algorythms
 
