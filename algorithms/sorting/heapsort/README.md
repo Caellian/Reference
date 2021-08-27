@@ -14,4 +14,4 @@
 
 - Stable sort isn't needed
 - Worst case performance is more important than average case performance.
-- Inputs of very large but not specific size
+- Inputs are of very large and unknown size

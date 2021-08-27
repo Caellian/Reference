@@ -16,4 +16,4 @@
 - Quick and simple code implementation is needed
 - Input is in mostly sorted order and some out-of-order elements are nearly in position.
 
-Standard language sort function (if one exists) should be used instead of this algorithm as it's very slow.
+**Standard language sort function (if one exists) should be used instead of this algorithm as it's very slow.**

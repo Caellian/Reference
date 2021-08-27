@@ -1,8 +1,8 @@
-# Sorting algorythms
+# Sorting algorithms
 
-Subdirectories contain implementations of various different commonly used sorting algorythms.
+Subdirectories contain implementations of various different commonly used sorting algorithms.
 
-## Included algorythms
+## Included algorithms
 
 - [Bubble sort (Sinking sort)](./bubble_sort)
 - [Heapsort](./heapsort)

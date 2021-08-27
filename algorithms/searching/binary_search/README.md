@@ -19,7 +19,7 @@ Binary search recursively divides specified container range in half and checks i
 
 ### C++
 
-**NOTE:** Binary search is part of `<algorithm>` header in *STL* and is equivalent to:
+Binary search is part of `<algorithm>` header in _STL_ and is equivalent to:
 
 ```c++
 template <class ForwardIterator, class T>
@@ -30,7 +30,7 @@ bool binary_search(ForwardIterator first, ForwardIterator last, const T& val)
 }
 ```
 
-If you need index of searched element, use the following implementation:
+If index of searched element is needed, the following implementation returns the index:
 
 ```c++
 template <class ForwardIterator, class T>

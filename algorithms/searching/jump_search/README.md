@@ -6,4 +6,5 @@ Jump search finds a given element in collection by making small jumps
 
 ## Requirements
 
+- Collection supports random access
 - Collection is sorted

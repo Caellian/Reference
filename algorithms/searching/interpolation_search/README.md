@@ -16,5 +16,6 @@ Under the assumption of a uniform distribution of the data on the linear scale u
 
 ## Requirements
 
+- Collection supports random access
 - Collection is sorted
 - Collection data is uniformly distributed (to avoid worst case complexity)
