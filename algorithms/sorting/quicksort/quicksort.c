@@ -48,10 +48,12 @@ void quicksort(int *a, size_t lo, size_t hi)
 {
   if (hi <= lo) return;
   int j = partition(a, lo, hi);
+  quicksort(a, lo, j - 1);
+  quicksort(a, j + 1, hi);
 }
 
 void quicksort(int *a, size_t n)
 {
-  shuffle(a, n);
+  shuffle(a, n); // avoid worst case complexity for example
   quicksort(a, 0, n);
 }
